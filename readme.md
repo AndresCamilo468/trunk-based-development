@@ -2,6 +2,14 @@
 
 *Repositorio de prueba para entender el manejo de branches usado en Trunk Based Development*
 
+Se tiene a merge como la principal herramienta para mezclar cambios, esta es util pero suele tener problemas a la hora de realizar la mezcla. Para evitar errores del merge, se puede primero actualizar la rama del feature (usando rebase) con los cambios de la rama principal, aqui se solucionan los conflictos y cuando se esta seguro se realiza el merge, esto evita conflictos.
+
+**Before:** 
+  1. Merge (con conflicto)
+  
+**After:** 
+  1. Rebase (actualizacion -> conflictos -> solventarlos)
+  2. Merge (sin conflictos)
 
 ## Rebase para actualizar feature-branch 
 
