@@ -21,6 +21,15 @@ git rebase --continue
 
 ```
 
+## Rebase Interactivo
+Si se tienen muchos commit en la feature branch es posible que se busque limpiar la historia
+para esto se usa rebase interactivo, interactive me permite actualziar la historia a mi manera
+
+```
+#usar rebase interactive
+git rebase -i
+
+```
 
 
 ## Stash para cambios pendientes
@@ -41,6 +50,9 @@ git stash pop
 #atajos
 git rebase origin/master --autostash
 ```
+
+
+
 
 
 
